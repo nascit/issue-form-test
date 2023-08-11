@@ -1,0 +1,23 @@
+body:
+  - type: dropdown
+    id: region
+    attributes:
+      label: AWS Region
+      options:
+        - label: us-east-1
+        - label: us-east-2
+        - label: eu-west-1
+    validations:
+      required: true
+
+  - type: input
+    id: rd_account
+    attributes:
+      label:  RD AWS account
+
+  - type: input
+    id: deployer_role
+    attributes:
+      label:  Deployer role name
+      description: Deployer role name
+      placeholder: ex. deployer-main

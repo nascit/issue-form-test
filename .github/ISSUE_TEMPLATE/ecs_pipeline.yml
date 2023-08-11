@@ -1,3 +1,9 @@
+name: Create a ECS pipeline
+description: ECS pipeline
+title: "[Do the magic]: "
+labels: ["automation"]
+assignees:
+  - octocat
 body:
   - type: dropdown
     id: region
